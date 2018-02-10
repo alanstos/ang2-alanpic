@@ -1,8 +1,9 @@
 # ang2-alanpic
 
-start:
+start server: <br />
 /server/
 npm start
 
+start client: <br />
 client/
 npm start
