@@ -8,4 +8,4 @@ start client: <br />
 client/
 npm start
 
-<p>parei na parte2 topico 3 finalizado</p>
+<p>parei na parte2 - finalizado antes de falar do jquery</p>

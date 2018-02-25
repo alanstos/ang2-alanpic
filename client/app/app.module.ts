@@ -12,6 +12,7 @@ import { FotoModule } from './foto/foto.module';
 import { HttpModule } from '@angular/http';
 
 import { PainelModule } from './painel/painel.module';
+import { BotaoModule } from './botao/botao.module';
 
 import { CadastroComponent }   from './cadastro/cadastro.component'; 
 import { ListagemComponent }   from './listagem/listagem.component'; 
@@ -27,7 +28,8 @@ import { FormsModule , ReactiveFormsModule} from '@angular/forms';
     PainelModule,
     routing,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BotaoModule
   ],
   declarations: [ AppComponent , CadastroComponent, ListagemComponent],
   bootstrap:    [ AppComponent ]
