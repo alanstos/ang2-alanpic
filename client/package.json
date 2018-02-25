@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc:w": "tsc -w",
     "start": "npm run tsc:w",
-    "typings": "typings"
+    "typings": "typings",
+    "postinstall": "typings install" 
   },
   "author": "",
   "license": "ISC",
